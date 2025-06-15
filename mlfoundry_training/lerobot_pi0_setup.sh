@@ -56,6 +56,7 @@ pip install transformers==4.51.3
 # Install additional packages
 echo "📦 Installing additional packages..."
 pip install wandb pytest scipy
+sudo apt install -y ffmpeg libavformat-dev libavcodec-dev libavutil-dev libswscale-dev libavfilter-dev
 
 echo "🎉 Installation complete!"
 echo ""
